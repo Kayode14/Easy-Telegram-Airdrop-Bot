@@ -17,12 +17,12 @@
     "COIN_SYMBOL": {
       "description": "Coin symbol. Example: BNB, ETH",
       "required": true,
-      "value": "BETH"
+      "value": "LEA"
     },
     "COIN_NAME": {
       "description": "Coin name. Example: Bitcoin, Ethereum",
       "required": true,
-      "value": "Baby Ethereum"
+      "value": "TON ALLIANCE"
     },
     "AIRDROP_AMOUNT": {
       "description": "How many tokens are you going to give? Example: 10000. Do not include ',' must be float number",
@@ -32,12 +32,12 @@
     "AIRDROP_DATE": {
       "description": "Date of reward distrubition. Example: 20 July 2021",
       "required": true,
-      "value": "20 July 2021"
+      "value": "13 July 2024"
     },
     "AIRDROP_NETWORK": {
       "description": "In which network/chain are you going to give? Example: Binance Smart Chain",
       "required": false,
-      "value": "Binance Smart Chain"
+      "value": "TON"
     },
     "BOT_TOKEN": {
       "description": "The token you get from @BotFather. Example: 1313552295:AAFxDGKhlco-FoWw-uyxInotlKvalidNEz-Q",
@@ -46,7 +46,7 @@
     "COIN_PRICE": {
       "description": "Current price of coin Example: $0.01",
       "required": true,
-      "value": "$0.01"
+      "value": "$0.0001825"
     },
     "REFERRAL_REWARD": {
       "description": "Extra reward participants will get for each referral. Example: 1000. Do not include ',' must be float number",
@@ -56,15 +56,15 @@
     "WEBSITE_URL": {
       "description": "Website URL",
       "required": false,
-      "value": "https://bitcoinbutitsjustababy.com"
+      "value": ""
     },    
     "EXPLORER_URL": {
       "description": "Blockchain explorer URL",
       "required": false,
-      "value": "https://bscscan.com/address/0x0000000000000000000000000000000000000000"
+      "value": "https://tonscan.com/EQB5MTGUV5UNK0GMIoE-MoIkJWg4L9xgY2UOWPS0SajhPWiY"
     },     
     "ADMIN_USERNAME": {
-      "description": "Bot owner's telegram username. Example: johndoe",
+      "description": "Bot support telegram username. Example: johndoe",
       "required": true
     },    
     "MAX_USERS": {
@@ -85,12 +85,12 @@
     "TWITTER_LINKS": {
       "description": "Twitter page links seperated by comma. Single Example: https://twitter.com/bitcoin. Multiple Example: https://twitter.com/bitcoin,https://twitter.com/ethereum",
       "required": true,
-      "value": "https://twitter.com/bitcoin,https://twitter.com/ethereum"
+      "value": "https://twitter.com/AllianceTon"
     },
     "TELEGRAM_LINKS": {
       "description": "Twitter page links seperated by comma. Single Example: https://t.me/single. Multiple Example: https://t.me/multi,https://t.me/ple",
       "required": true,
-      "value": "https://t.me/multi,https://t.me/ple"
+      "value": "https://t.me/alliance_Ton"
     },
     "DISCORD_LINKS": {
       "description": "Discord server links seperated by comma. Single Example: https://discord.gg/example. Multiple Example: https://discord.gg/example,https://discord.gg/ple",
@@ -98,7 +98,7 @@
       "value": "https://discord.gg/example"
     },
     "DB_URI": {
-      "description": "Get one from https://cloud.mongodb.com/. Replace <username> and <password>. Example: mongodb+srv://<username>:<password>@cluster0.abcde.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+      "description": "Get one from https://cloud.mongodb.com/. Replace <username> and <password>. Example: mongodb+srv://flare:flare1414@cluster0.j1remy9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     }
   }
